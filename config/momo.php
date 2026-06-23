@@ -1,12 +1,12 @@
-﻿<?php
+<?php
 
 return [
     'endpoint' => 'https://test-payment.momo.vn/v2/gateway/api/create',
 
-    // Láº¥y táº¡i MoMo Business Portal > ThÃ´ng tin tÃ­ch há»£p.
-    'partner_code' => 'YOUR_PARTNER_CODE',
-    'access_key' => 'YOUR_ACCESS_KEY',
-    'secret_key' => 'YOUR_SECRET_KEY',
+   // Lấy tại MoMo Business Portal > Thông tin tích hợp.
+    'partner_code' => 'MOMO4MUD20240115_TEST',
+    'access_key' => 'Ekj9og2VnRfOuIys',
+    'secret_key' => 'PseUbm2s8QVJEbexsh8H3Jz2qa9tDqoa',
 
     // Redirect hoáº¡t Ä‘á»™ng trÃªn chÃ­nh mÃ¡y Ä‘ang cháº¡y Laragon.
     'redirect_url' => 'http://momo-shop.test/payment/result',
